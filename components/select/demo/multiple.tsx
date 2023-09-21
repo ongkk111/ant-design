@@ -30,7 +30,7 @@ const App: React.FC = () => (
       mode="multiple"
       disabled
       style={{ width: '100%' }}
-      placeholder="Please select"
+      placeholder="管理人"
       defaultValue={['a10', 'c12']}
       onChange={handleChange}
       options={options}
